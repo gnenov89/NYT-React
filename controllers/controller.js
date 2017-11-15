@@ -56,7 +56,7 @@ router.post("/api/saved", function(req, res) {
 
 // API DELETE - your components will use this to delete a saved article in the database
 router.post("/api/delete/:articleMongoId", function(req, res) {
-  console.log(req.params.articleMongoId)
+  console.log(req.params.articleMongoId);
   Article.findByIdAndRemove(req.params.articleMongoId, function (err, todo) {
     if (err) {
       // Send Failure Header
