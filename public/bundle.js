@@ -172,7 +172,7 @@
 	};
 	
 	module.exports = React;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 3)));
 
 /***/ },
 /* 3 */
@@ -217,7 +217,7 @@
 	    } catch (e) {
 	        cachedClearTimeout = defaultClearTimeout;
 	    }
-	} ())
+	} ());
 	function runTimeout(fun) {
 	    if (cachedSetTimeout === setTimeout) {
 	        //normal enviroments in sane situations
